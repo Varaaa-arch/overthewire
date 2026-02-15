@@ -17,7 +17,7 @@ ls
 cat ./-
 
 # exit session and login
-ssh bandit1@bandit.labs.overthewire.org -p 2220
+ssh bandit2@bandit.labs.overthewire.org -p 2220
 ```
 
 ### Password Found

@@ -1,4 +1,4 @@
-# Bandit Level 1 → Level 2
+# Bandit Level 2 → Level 3
 
 ### Level Goal
 > This mission is the same as level 2, you have to find the password in the file, but the difference is that this file has spaces `--spaces in this filenames--`. After finding it, you have to log in as bandit3 with port 2220.
@@ -17,7 +17,7 @@ ls
 cat "./--spaces in this filename--"
 
 # exit session and login
-ssh bandit1@bandit.labs.overthewire.org -p 2220
+ssh bandit3@bandit.labs.overthewire.org -p 2220
 ```
 
 ### Password Found
