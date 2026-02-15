@@ -13,6 +13,10 @@
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
 
+### What I Learned
+* **SSH Basics**: Understand how to remotely log in to a server using the ssh command with a specific port specified using the -p flag.
+* **Username Specification**: Learn that SSH defaults to the local OS username, so it must be explicitly defined (user@host) to avoid permission denied errors.
+
 ### Password Found
 <details>
   <summary>Click to reveal password</summary>

@@ -20,6 +20,9 @@ cat readme
 ssh bandit1@bandit.labs.overthewire.org -p 2220
 ```
 
+### What I Learned
+* **Basic Navigation**: Using ls to view directory contents and cat to display text file contents on the terminal screen.
+
 ### Password Found
 <details>
   <summary>Click to reveal password</summary>

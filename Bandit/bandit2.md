@@ -20,6 +20,10 @@ cat ./-
 ssh bandit2@bandit.labs.overthewire.org -p 2220
 ```
 
+### What I Learned
+* **Special Character Handling**: Learn that the - sign has a special meaning in Linux (Standard Input), so it can't be read normally.
+* **Relative Paths**: Learn how to use the ./ (current directory) prefix to force the terminal to read files whose names resemble command arguments.
+
 ### Password Found
 <details>
   <summary>Click to reveal password</summary>

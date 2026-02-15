@@ -20,6 +20,9 @@ cat "./--spaces in this filename--"
 ssh bandit3@bandit.labs.overthewire.org -p 2220
 ```
 
+### What I Learned
+* **Quoting Mechanism**: Uses double quotes (" ") to wrap file names containing spaces to treat them as one complete argument.
+
 ### Password Found
 <details>
   <summary>Click to reveal password</summary>

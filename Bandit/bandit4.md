@@ -27,6 +27,10 @@ cat <that file>
 ssh bandit4@bandit.labs.overthewire.org -p 2220
 ```
 
+### What I Learned
+* **Hidden Files**: Memahami konsep file tersembunyi di Linux yang diawali dengan tanda titik (.).
+* **Advanced Listing**: Menggunakan flag -a (all) pada perintah ls (misal: ls -la) untuk melihat semua file, termasuk yang disembunyikan oleh sistem.
+
 ### Password Found
 <details>
   <summary>Click to reveal password</summary>
