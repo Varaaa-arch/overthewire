@@ -14,4 +14,7 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
 
 ### Password Found
-`bandit0`
+<details>
+  <summary>Click to reveal password</summary>
+  <code>bandit0</code>
+</details>
