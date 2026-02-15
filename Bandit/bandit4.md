@@ -1,4 +1,4 @@
-# Bandit Level 1 → Level 2
+# Bandit Level 3 → Level 4
 
 ### Level Goal
 > This time, our mission is to find the password in a hidden file in the `inhere` directory. Then, log in as bandit4 on port 2220.

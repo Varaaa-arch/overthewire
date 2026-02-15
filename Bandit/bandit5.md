@@ -1,4 +1,4 @@
-# Bandit Level 1 → Level 2
+# Bandit Level 4 → Level 5
 
 ### Level Goal
 > Find the password in the inherent directory, where it is stored in the only human-readable file.
