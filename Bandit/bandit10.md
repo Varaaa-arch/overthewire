@@ -23,7 +23,7 @@ ssh bandit10@bandit.labs.overthewire.org -p 2220
 
 ### What I Learned
 * **Binary vs Text Files**: Not all files are readable using cat; some require extraction tools.
-* **Using strings**: The strings command helps reveal readable text hidden inside binary files — commonly used in reverse engineering and forensics.
+* **Using strings**: The strings command helps reveal readable text hidden inside binary files commonly used in reverse engineering and forensics.
 * **Pattern Searching**: Searching for symbols (=) can help locate structured data or encoded secrets inside files.
 
 
