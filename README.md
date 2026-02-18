@@ -21,12 +21,3 @@ Welcome to my personal documentation for **OverTheWire Wargames**. This reposito
 | **Krypton** | 0 - 6 | Pending | Cryptography |
 
 ---
-
-## Skills & Tools Mastered
-Through these challenges, I am mastering:
-* **Linux Essentials:** File permissions, SUID/SGID, hidden files.
-* **CLI Power Tools:** `grep`, `find`, `sort`, `uniq`, `strings`, `base64`.
-* **Networking:** SSH, Netcat (`nc`), Telnet, Port Scanning.
-* **Logic:** Breaking down puzzles and understanding how systems think.
-
----

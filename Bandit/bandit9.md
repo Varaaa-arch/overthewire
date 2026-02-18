@@ -33,4 +33,3 @@ ssh bandit9@bandit.labs.overthewire.org -p 2220
   <summary>Click to reveal password</summary>
   <code>4CKMh1JI91bUIZZPXDqGanal4xvAg0JM</code>
 </details>
-~
