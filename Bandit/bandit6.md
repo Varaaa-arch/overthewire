@@ -1,4 +1,4 @@
-# Bandit Level 4 → Level 5
+# Bandit Level 5 → Level 6
 
 ### Level Goal
 > The password for the next level is stored somewhere under the inhere directory, and it is: human-readable, 1033 bytes in size, not executable
@@ -19,7 +19,7 @@ cd inhere
 find . -type f -size 1033c ! -executable
 
 # Display the password
-cat <file found>
+cat <file>
 
 # Exit session and login to next level
 ssh bandit6@bandit.labs.overthewire.org -p 2220
