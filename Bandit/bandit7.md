@@ -22,8 +22,6 @@ cat <file>
 
 # Exit session and login to next level
 ssh bandit7@bandit.labs.overthewire.org -p 2220
-
-
 ```
 
 ### What I Learned
