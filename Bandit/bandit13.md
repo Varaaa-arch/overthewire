@@ -11,16 +11,6 @@
     * **Unknown Order**: Each extraction reveals another format, requiring repeated file identification.
 3. **Solution**: [Step by Step](stepBandit13.md)
 
-
-### Commands Used
-```bash
-# Decode ROT13 text
-cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
-
-# Exit session and login to next level
-ssh bandit12@bandit.labs.overthewire.org -p 2220
-```
-
 ### What I Learned
 * **Hexdump Reversal**: xxd -r converts hexadecimal dumps back into binary files.
 * **Compression Formats in Linux**
