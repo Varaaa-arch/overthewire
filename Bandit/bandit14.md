@@ -16,9 +16,9 @@ ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
 ```
 
 ### What I Learned
-* SCP File Transfer: Memahami cara mendownload file dari server remote ke mesin lokal secara aman menggunakan protokol SSH.
-* Private Key Security: Menyadari bahwa SSH akan menolak kunci private jika permission-nya terlalu terbuka (harus 600).
-* Identity Injection: Menggunakan flag -i untuk melakukan login otomatis tanpa perlu mengetik password secara manual.
+* SCP File Transfer: Mastered how to securely download files from a remote server to a local machine using the SSH protocol.
+* Private Key Security: Learned that SSH clients enforce strict security; a private key must have restricted permissions (like 600) or it will be ignored for being "too open."
+* Identity Injection: Understood how to use the -i flag to bypass password prompts by injecting a digital identity file (Private Key) for authentication.
 
 ### Password Found
 <details>
