@@ -1,28 +1,27 @@
 # Bandit Level 13 → Level 14
 
 ### Level Goal
-> The password for the next level can be retrieved by submitting the password of the current level to a service running on localhost at port 30000.
+> The goal is to retrieve the password from /etc/bandit_pass/bandit14. We are given a private SSH key (sshkey.private) in the home directory of Bandit 13 to log into Bandit 14.
 
 ### Discovery & Logic
-1. **Analysis**: After logging in as bandit14, the current level password could be obtained from `/etc/bandit_pass/bandit14`. The level instructions indicated that a network service was running locally on port 30000, meaning the password must be sent to that service to receive the next level’s credentials.
-2. **Problem**: The challenge required interacting directly with a TCP service rather than reading files locally. This meant I needed a tool capable of opening a raw network connection and manually sending input to the service.
-3. **Solution**: I used the nc (netcat) command to connect to localhost on port 30000. Netcat acts as a simple TCP client, allowing manual communication with network services. After establishing the connection, I submitted the current level password as input. The service validated the password and responded with a confirmation message followed by the password for the next level.
+1. **Analysis**: User bandit13 has a private SSH key (sshkey.private) in the home directory. This key belongs to user bandit14.
+2. **Problem**: We need to access /etc/bandit_pass/bandit14, but we only have the key on the remote server. We want to move this key to our local machine to manage the connection from there.
+3. **Solution**: scp to download the private key to the local terminal, adjust the file permissions to meet SSH security standards (700), and use it to log in as bandit14.
 
 ### Commands Used
 ```bash
-cat /etc/bandit_pass/bandit14
-
-nc localhost 30000
+scp -P 2220 bandit13@bandit.labs.overthewire.org:sshkey.private .   
+chmod 700 sshkey.private
+ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
 ```
 
 ### What I Learned
-* **Netcat (nc) Basics**: Netcat can open raw TCP connections to communicate with services.
-* **Client–Server Interaction**: Some systems require sending data to a running service instead of reading files directly.
-* **Localhost Concept**: localhost refers to the same machine (127.0.0.1).
-* **Port Communication**: Services listen on specific ports and respond based on received input.
+* SCP File Transfer: Memahami cara mendownload file dari server remote ke mesin lokal secara aman menggunakan protokol SSH.
+* Private Key Security: Menyadari bahwa SSH akan menolak kunci private jika permission-nya terlalu terbuka (harus 600).
+* Identity Injection: Menggunakan flag -i untuk melakukan login otomatis tanpa perlu mengetik password secara manual.
 
 ### Password Found
 <details>
   <summary>Click to reveal password</summary>
-  <code>8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo</code>
+  <code>MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS</code>
 </details>
