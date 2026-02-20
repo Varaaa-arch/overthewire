@@ -1,4 +1,4 @@
-# Bandit Level 24 → Level 25
+# Bandit Level 26 → Level 27
 
 ### Level Goal
 > The password for the next level is stored in /etc/bandit_pass/bandit27 and can only be read by user bandit27. In the home directory, there is a SUID binary that runs commands as another user. Use it to retrieve the password.

@@ -1,4 +1,4 @@
-# Bandit Level 24 → Level 25
+# Bandit Level 25 → Level 26
 
 ### Level Goal
 > Use the SSH key found in Bandit 25 to log into Bandit 26. The main challenge is that Bandit 26 uses a restricted shell script that displays a text file and immediately terminates the connection, preventing normal command execution.
