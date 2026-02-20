@@ -1,4 +1,4 @@
-# Bandit Level 28 → Level 29
+# Bandit Level 29 → Level 30
 
 ### Level Goal
 > Clone the Git repository for bandit29-git and find the password for the next level. In this level, the password is not in the main branch's history, requiring you to explore other branches in the repository.
