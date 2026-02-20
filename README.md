@@ -15,9 +15,9 @@ Welcome to my personal documentation for **OverTheWire Wargames**. This reposito
 
 | Wargame | Level Range | Status | Key Topics |
 | :--- | :---: | :---: | :--- |
-| **Bandit** | 0 - 34 | In Progress | CLI, SSH, Permissions |
+| **Bandit** | 0 - 34 | Complete | CLI, SSH, Permissions |
+| **Natas** | 0 - 34 | In Progress | Web Security |
 | **Leviathan** | 0 - 7 | Pending | Privilege Escalation |
-| **Natas** | 0 - 34 | Pending | Web Security |
 | **Krypton** | 0 - 6 | Pending | Cryptography |
 
 ---
