@@ -21,3 +21,7 @@ Welcome to my personal documentation for **OverTheWire Wargames**. This reposito
 | **Krypton** | 0 - 6 | Pending | Cryptography |
 
 ---
+
+## Author
+
+**Bizar Octo Givardi**
