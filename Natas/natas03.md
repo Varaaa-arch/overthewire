@@ -19,7 +19,7 @@ Check `robots.txt`:
 http://natas3.natas.labs.overthewire.org/robots.txt
 ```
 
-Content of `robots.txt`:
+content of `robots.txt`:
 ```
 User-agent: *
 Disallow: /s3cr3t/
