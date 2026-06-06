@@ -12,7 +12,6 @@
 ```
 URL   : http://natas1.natas.labs.overthewire.org
 User  : natas1
-Pass  : 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq
 ```
 
 Access page source via address bar:
@@ -32,5 +31,5 @@ In the page source:
 ### Password Found
 <details>
   <summary>Click to reveal password</summary>
-  <code>TguMNxKo9DSjfuZkj9WT928ZFvYGeRzx</code>
+  <code>0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq</code>
 </details>
