@@ -6,7 +6,7 @@
 ### Discovery & Logic
 1. **Analysis**: The website `http://natas1.natas.labs.overthewire.org` blocks right-click, preventing access to "View Page Source" via context menu.
 2. **Problem**: Right-click is disabled using a JavaScript event listener, so the usual method is blocked.
-3. **Solution**: Bypass the restriction by typing `view-source:` directly in the address bar, or use the keyboard shortcut `Ctrl+U` — JavaScript cannot block these methods.
+3. **Solution**: Bypass the restriction by typing `view-source:` directly in the address bar, or use the keyboard shortcut `Ctrl+U` JavaScript cannot block these methods.
 
 ### Commands Used
 ```
