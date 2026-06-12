@@ -1,6 +1,6 @@
 # Natas Level 7
 
-> 🎥 **Video Walkthrough**: [Watch](/Natas/natas07.mp4)
+> 🎥 **Video Walkthrough**: [Watch on YouTube](https://youtu.be/Hmir8QZZJLw?si=NplbVpbf_1DjuyeR)
 
 ### Level Goal
 > The goal of this level is to find the password for the next level.

@@ -1,6 +1,6 @@
 # Natas Level 6
 
-> 🎥 **Video Walkthrough**: [Watch](/Natas/natas06.mp4)
+> 🎥 **Video Walkthrough**: [Watch on YouTube](https://youtu.be/UDuPYk83nzM?si=VKaC95YbdbjEIdvG)
 
 ### Level Goal
 > The goal of this level is to find the password for the next level.
