@@ -1,7 +1,5 @@
 # Natas Level 5
 
-> 🎥 **Video Walkthrough**: [Watch on YouTube](/Natas/natas05.mp4)
-
 ### Level Goal
 > The goal of this level is to find the password for the next level.
 
